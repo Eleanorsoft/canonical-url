@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="eleanorsoft_custom_config" translate="label" sortOrder="130">
+            <label>Eleanorsoft</label>
+        </tab>
+        <section id="eleanorsoft_canonical" translate="label" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Canonical Url</label>
+            <tab>eleanorsoft_custom_config</tab>
+            <resource>Eleanorsoft_CanonicalUrl::canonical_config</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General Configuration</label>
+                <field id="canonical_domain" translate="label" type="text" sortOrder="1"
+                       showInDefault="1" showInWebsite="1" showInStore="1">
+                    <validate>validate-url</validate>
+                    <label>Canonical Base URL</label>
+                    <comment>Base URL with scheme and port</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

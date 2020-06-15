@@ -1,0 +1,27 @@
+{
+  "name": "eleanorsoft/canonical-url",
+  "description": "A Module for Magento 2 that adds canonical URL with different host to every page",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Dmitry Vernigora",
+          "email": "dmitry.vernigora@eleanorsoft.com"
+      },
+      {
+          "name": "Konstantin Esin",
+          "email": "hello@eleanorsoft.com"
+      }
+  ],
+  "require": {
+    "php": "~7.1.0|~7.2.0",
+    "magento/framework": "^102.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Eleanorsoft\\CanonicalUrl\\": "."
+    }
+  }
+}

@@ -1,0 +1,6 @@
+<?php
+/** @var Eleanorsoft\CanonicalUrl\Block\CanonicalUrl $block */
+?>
+<?php if ($block->canShow()) : ?>
+    <link rel="canonical" href="<?= $block->escapeUrl($block->getCanonicalUrl()); ?>"/>
+<?php endif; ?>
