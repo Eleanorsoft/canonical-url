@@ -14,7 +14,7 @@
           "email": "hello@eleanorsoft.com"
       }
   ],
-  "minimum-stability":"dev",
+  "minimum-stability":"stable",
   "require": {
     "php": "~7.1.0|~7.2.0",
     "magento/framework": "^102.0"
