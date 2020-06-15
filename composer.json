@@ -2,7 +2,7 @@
   "name": "eleanorsoft/magento2-canonical-url",
   "description": "A Module for Magento 2 that adds canonical URL with different host to every page",
   "type": "magento2-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "authors": [
       {
