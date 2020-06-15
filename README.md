@@ -5,10 +5,11 @@ To keep it short: the module rewrites URL of each page to point to a different h
 
 ## Installation
 ```
-composer config repositories.eleanorsoft-magento2-canonical-url git git@github.com:Eleanorsoft/magento2-canonical-url
-composer require Eleanorsoft/magento2-canonical-url
+composer config repositories.eleanorsoft-magento2-canonical-url git "https://github.com/Eleanorsoft/magento2-canonical-url.git"
+composer require eleanorsoft/magento2-canonical-url
 php bin/magento s:up
 php bin/magento c:f
 ```
 
 ## Configuration
+Go to `Store > Configuration > Eleanorsoft > Canonical URL` and set base URL which will be used for canonical URL generation.

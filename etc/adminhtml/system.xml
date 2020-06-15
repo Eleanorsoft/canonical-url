@@ -15,7 +15,7 @@
                        showInDefault="1" showInWebsite="1" showInStore="1">
                     <validate>validate-url</validate>
                     <label>Canonical Base URL</label>
-                    <comment>Base URL with scheme and port</comment>
+                    <comment>Base URL with scheme and port. Leave empty to disable canonical URL.</comment>
                 </field>
             </group>
         </section>
