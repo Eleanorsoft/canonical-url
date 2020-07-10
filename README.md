@@ -5,8 +5,8 @@ To keep it short: the module rewrites URL of each page to point to a different h
 
 ## Installation
 ```
-composer config repositories.eleanorsoft-magento2-canonical-url git "https://github.com/Eleanorsoft/magento2-canonical-url.git"
-composer require eleanorsoft/magento2-canonical-url
+composer config repositories.eleanorsoft-canonical-url git "https://github.com/Eleanorsoft/canonical-url.git"
+composer require eleanorsoft/canonical-url
 php bin/magento s:up
 php bin/magento c:f
 ```
